@@ -1,0 +1,88 @@
+input {
+    width: 300px;
+    height: 30px;
+    border: solid 2px;
+    border-radius: 16px;
+    border-color: rgba(0, 0, 0, 0.363);
+    background-color: antiquewhite;
+    padding-left: 10px;
+    /* //position: relative;
+    //margin-left: 10%; */
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    color: gray;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+
+button:hover {
+    background-color: rgb(255, 198, 123);
+}
+
+.main-div{
+    position: relative;
+    top: 100px;
+    left: calc(50% - 150px - 35px);
+}
+
+.task{
+    
+    width: 350px;
+    height: 30px;
+    border: solid 2px;
+    text-align: center;
+    border-radius: 16px;
+    display: inline-block;
+    margin: 5px;
+    
+}
+
+.doneButton{
+    width: 70px;
+    height: 30px;
+    color: gray;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+.doneButton:hover {
+    background-color: green;
+    color: white;
+    border: white solid 2px;
+    border-radius: 30px;
+}
+
+.deleteButton{
+    width: 70px;
+    height: 30px;
+    color: gray;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+.deleteButton:hover {
+    background-color: red;
+    color: white;
+    border: white solid 2px;
+    border-radius: 30px;
+}
+
+.doneTask{
+    background-color: green;
+    color: white;
+
+}
+.taskDiv{
+    position: relative;
+    left: -50px;
+}
